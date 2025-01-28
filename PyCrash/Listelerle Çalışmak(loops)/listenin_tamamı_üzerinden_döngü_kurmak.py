@@ -14,3 +14,4 @@ for magician in magicians: #2
 magicians = ["alice", "david", "carolina"] #1
 for magician in magicians: #2
     print(f"{magician.title()}, bu büyük bir ustalıktı!")
+    
