@@ -44,3 +44,5 @@ print(cars)
 #reverse()'in Alfabetik olarak ters yönde sıralama yapmadığına dikkat ediniz; sadece listenin sıralamasını tersine çevirmektedir.
 #reverse() metodu listenin sıralamasını kalıcı olarak deeğişririr fakat aynı listeye istediğiniz zaman ikinci kez-
 #reverse()'ü uygulayarak orijinal sıralamaya dönebilirsiniz.
+
+# print("gencer")
