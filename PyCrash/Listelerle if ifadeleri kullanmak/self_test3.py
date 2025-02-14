@@ -7,4 +7,4 @@ for number in numbers:
     elif number == 3:
         print("3rd")
     else:
-        print(f"{number} th")
+        print(f"{number}th")
