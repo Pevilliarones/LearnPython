@@ -1,13 +1,6 @@
-favorite_languages = {
-    "jen": "python",
-    "sarah": "c",
-    "edward": "ruby",
-    "phil": "python",
-}
-insanlar = ["jen", "gencer", "sarah", "edward", "phil", "şeyma", "ege"]
+öğrendiklerim = {"input": "girdi", "output": "çıktı", "print": "yazdır", "syntax": "söz dizimi", "value": "değer"}
+for key, value in öğrendiklerim.items():
+    print(f"\n{key}: {value}")
 
-for insan in insanlar:  
-    if insan in favorite_languages:
-        print(f"{insan.title()}, ankete katıldığınız için teşekkürler!")
-    else:
-        print(f"{insan.title()}, lütfen anketimize katılın!")
+öğrendiklerim["item"] = "eşya"
+print (öğrendiklerim)
