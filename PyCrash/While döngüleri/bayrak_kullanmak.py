@@ -1,4 +1,4 @@
-prompt = "\nBana bir şey söyle, sana onun tekrar edeyim:"
+prompt = "\nBana bir şey söyle, sana onu tekrar edeyim:"
 prompt += "\nProgramı sona erdirmek için 'quit' giriniz "
 
 active = True #1

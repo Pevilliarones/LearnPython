@@ -1,11 +1,12 @@
-prompt = "\nPizzanızda neler olsun istiyorsunuz? Lütfen belirtin:"
-prompt += "\nLütfen belirtin: "
+prompt = "\nPizzanızda neler olsun istiyorsunuz? (Çıkmak için 'quit' yazın): "
 
+malzemeler = ""
 
-active = True
-while active:
-    malzeme = input (prompt)
+while True:
+    malzeme = input(prompt)
     if malzeme == "quit":
-        active = False
-else:
-    print(malzeme)
+        break
+    malzemeler = malzemeler + " " + malzeme
+    print(f"{malzemeler}")
+
+print(f"İşte pizzanıza eklenen malzemeler: {malzemeler}")
